@@ -1,4 +1,4 @@
-# reproducing bug with double // redirect comment in transitive updates
+# reproducing bug with double // redirect comment in transitive Go updates
 
 (ignore the Go code in this project, the only relevant code is the `go.mod`/`go.sum` files)
 
