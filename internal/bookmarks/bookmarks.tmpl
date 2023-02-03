@@ -1,0 +1,16 @@
+{{define "bookmarks" -}}
+<!DOCTYPE NETSCAPE-Bookmark-file-1>
+<!-- This is an automatically generated file.
+     It will be read and overwritten.
+     DO NOT EDIT! -->
+<META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=UTF-8">
+<TITLE>Bookmarks</TITLE>
+<H1>Bookmarks</H1>
+<DL><p>
+    <DT><H3 ADD_DATE="1658268705" LAST_MODIFIED="1658268705" PERSONAL_TOOLBAR_FOLDER="false">GitLab projects</H3>
+    <DL><p>
+{{range $index, $item :=. }}
+        <DT><A HREF="{{$item.WebURL}}" ADD_DATE="{{$item.LastActivityAt.Unix}}">{{$item.Name}}</A>{{end}}
+    </DL><p>
+</DL><p>
+{{end}}
