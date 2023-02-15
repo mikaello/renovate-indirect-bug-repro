@@ -12,7 +12,7 @@ require (
 	golang.org/x/net v0.4.0 // indirect
 	golang.org/x/oauth2 v0.3.0 // indirect
 	golang.org/x/time v0.3.0 // indirect
-	google.golang.org/appengine v1.6.7 // indirect
+	google.golang.org/appengine/v2 v2.0.2 // indirect // indirect
 	google.golang.org/protobuf v1.28.1 // indirect
 )
 
